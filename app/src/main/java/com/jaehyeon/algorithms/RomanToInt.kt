@@ -1,6 +1,6 @@
 package com.jaehyeon.algorithms
 
-class Solution {
+class RomanToInt {
     fun romanToInt(s: String): Int {
         val reverseString = s.reversed()
         var result = 0
@@ -34,6 +34,6 @@ class Solution {
 
 
 fun main() {
-    val sol = Solution()
+    val sol = RomanToInt()
     println(sol.romanToInt("MCMXCIV"))
 }
