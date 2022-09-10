@@ -17,7 +17,3 @@ class TheNumberOfWeakCharInTheGame {
         return  ans
     }
 }
-
-fun main() {
-
-}
