@@ -2,7 +2,7 @@ package com.jaehyeon.algorithms
 
 import kotlin.math.*
 
-class Solution {
+class BestTimeToBuyAndSellStockIV {
     fun maxProfit(k: Int, prices: IntArray): Int {
         if(k == 0){
             return 0
